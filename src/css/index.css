@@ -104,6 +104,7 @@ body, html{
 
 .banner-text-title {
 	font-size: 2.12em;
+	margin: 0;
 }
 
 .banner-text-text {
@@ -133,4 +134,45 @@ body, html{
 	font-size: 1.25em;
 }
 
-.banner-text
+/*ERP CLOUD*/
+
+.erpcloud {
+	display: flex;
+
+}
+
+.erpcloud-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.erpcloud-text-title {
+	font-size: 1.75em;
+}
+
+.erpcloud-text-list {
+	list-style: none;
+}
+
+.erpcloud-text-list .item {
+	margin: 0 0 20px;
+}
+
+.erpcloud-text-contentbuttons {
+	display: flex;
+	justify-content: center;
+}
+
+.erpcloud-text-contentbuttons .button {
+	padding: 18px 61px;
+	margin: 10px;
+	border: 1px solid #006699;
+	color: #006699; 
+	background: transparent;
+}
+
+.erpcloud-text-contentbuttons .button:hover {
+	border: 1px solid black;
+	color: black;
+}
