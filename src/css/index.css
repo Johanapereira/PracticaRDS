@@ -183,3 +183,18 @@ body, html{
 	border: 1px solid black;
 	color: black;
 }
+
+/*CUSTOMER*/
+.customers {
+	margin: 50px 0;
+}
+
+.customers-title {
+	text-align: center;
+	font-size: 1.50em;
+}
+
+.customers-contentimages {
+	display: flex;
+	justify-content: space-around;
+}
